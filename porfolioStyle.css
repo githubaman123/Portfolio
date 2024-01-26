@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#whole{
+    background:linear-gradient(to right, rgba(0,0,0,0.75),rgba(0,0,0,0)) ,url(porfolioWallpaper.webp);
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 100px;
+    padding:0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#portfolio{
+    line-height:100px ;
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 500;
+}
+#portfolio #lio{
+    color: red;
+}
+#nav_link{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav_link div{
+    width: 75px;
+    text-align: center;
+}
+#nav_link a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 100px;
+    transition:0.5s;
+}
+#nav_link a:hover{
+    color: red;
+}
+#nav_btns{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav_btn{
+    background-color: black;
+    color: white;
+    width: 45%;
+    height: 40px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.25);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.nav_btn:hover{
+    box-shadow: 5px 2px 10px rgba(225,225,225,0.5);
+    transform: scale(1.1);
+}
+#main_lbox{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+    font-family: arial;
+    padding-left: 20px;
+    width: 100%;
+}
+.main_heading{
+    font-size: 50px;
+    font-weight: 600; 
+    line-height: 60px;  
+}
+#para1{
+    margin-top: 10px;
+}
+.para{
+    line-height: 30px;
+}
+#hire_me{
+    background-color: white;
+    color: black;
+    height: 35px;
+    width: 125px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: 0.5s linear;
+}
+#hire_me:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+
+}
